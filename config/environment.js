@@ -17,6 +17,13 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: 'AIzaSyBfFXdYYHoq-GihjXFtlElOZdoNFSUq27Y',
+      authDomain: 'live-voting-system.firebaseapp.com',
+      databaseURL: 'https://live-voting-system.firebaseio.com',
+      storageBucket: 'live-voting-system.appspot.com',
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
